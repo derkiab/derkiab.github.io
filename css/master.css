@@ -1,12 +1,17 @@
+body{
 
-.title {
-
-padding: 60px;
-text-align: center;
+  margin: 0px;
 
 }
-.section1 {
+nav{
 
-  padding-left: 100px;
-  pdding-right: 100px;
+  background-color: black;
+  height: 50px;
+
+  padding-top: 25px;
+  padding-left: 10px;
+}
+.logo{
+
+
 }
