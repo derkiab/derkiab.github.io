@@ -1,8 +1,13 @@
-nav{
+body, html{
 
-    background-color: black;
-    height: 50px;
+  height: 100%;
+}
+.fondo{
+  background-image: url("../assets/fondo2.png");
+  background-repeat: no-repeat;
+  height: 100%;
 
-    padding-top: 25px;
-    padding-left: 10px;
+  background-position: center;
+
+  background-size: cover;
 }
