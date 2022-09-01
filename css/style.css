@@ -1,13 +1,139 @@
-body, html{
-
-  height: 100%;
+html {
+  scroll-behavior: smooth;
+}
+body{
+  margin :0%;
+  background-color: black;
 }
 .fondo{
-  background-image: url("../assets/fondo2.png");
+  height: 100vh;
+  margin:0%; 
+  background-image: url("../assets/fondo3.svg");
   background-repeat: no-repeat;
-  height: 100%;
-
   background-position: center;
-
   background-size: cover;
+}
+.navbar{
+  
+  padding-top: 7.5vh;
+  text-align: center;
+  padding-bottom: 7.5vh;
+  background-color: rgba(0, 0, 0, 0.99);
+  
+}
+
+.navbar a{ 
+  animation: 3s fadeIn;
+  color: white;
+  text-decoration: none;
+  margin-right: 4vw;
+  text-align:center;
+  font-family: 'Aboreto', cursive;
+}
+.presentacion{
+  text-align: center;
+  height: calc(85vh - 19px);
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.imagen{
+  padding-top: calc((85vh - 19px)/4);
+  width: 50%;
+  animation: 3s fadeIn;
+  animation-fill-mode: forwards;
+  visibility: hidden;
+}
+.acerca{
+  background-image: url("../assets/fondo3.jpg");
+  height: 100vh;
+}
+.acerca-contenido{
+  background-color: rgba(255, 255, 255, 0.55);
+  height: 100vh;
+  width: 50vw;
+}
+.titulo-acerca{
+  text-align: center;
+  color: rgb(0, 0, 0);
+  
+  padding-top: 8vh;
+  font-family: 'Aboreto', cursive;
+}
+.parrafo-acerca{
+  font-family: 'Aboreto';
+  
+  padding-left: 2vw;
+  padding-right: 2vw;
+  text-align: justify;
+  font-size:medium;
+}
+
+
+
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  5%{
+    opacity: 0.05;
+  }
+  10%{
+    opacity: 0.10;
+  }
+  15%{
+    opacity: 0.15;
+  }
+  20%{
+    opacity: 0.20;
+  }
+  25%{
+    opacity: 0.25;
+  }
+  30%{
+    opacity: 0.30;
+  }
+  35%{
+    opacity: 0.35;
+  }
+  40% {
+    opacity: 0.40;
+  }
+  45%{
+    opacity: 0.45;
+  }
+  50%{
+    opacity: 0.50;
+  }
+  55%{
+    opacity: 0.55;
+  }
+  60% {
+    opacity: 0.60;
+  }
+  65%{
+    opacity: 0.65;
+  }
+  70%{
+    opacity: 0.70;
+  }
+  75%{
+    opacity: 0.75;
+  }
+  80%{
+    opacity: 0.80;
+  }
+  85%{
+    opacity: 0.85;
+  }
+  90%{
+    opacity: 0.90;
+  }
+  95%{
+    opacity: 0.95;
+  }
+  100% {
+    visibility: visible;
+    opacity: 1;
+  }
 }
