@@ -54,7 +54,6 @@ body{
 .titulo-acerca{
   text-align: center;
   color: rgb(0, 0, 0);
-  
   padding-top: 8vh;
   font-family: 'Aboreto', cursive;
 }
@@ -66,7 +65,7 @@ body{
   text-align: justify;
   font-size: 20px;
 }
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
   .parrafo-acerca {
     font-size: 10px;
   }
