@@ -64,7 +64,7 @@ body{
   padding-left: 2vw;
   padding-right: 2vw;
   text-align: justify;
-  -webkit-text-size-adjust: auto;
+  font-size: small;
 }
 
 
