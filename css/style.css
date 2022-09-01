@@ -64,14 +64,17 @@ body{
   padding-left: 2vw;
   padding-right: 2vw;
   text-align: justify;
-  font-size: small;
+  font-size: 20px;
 }
 @media screen and (max-width: 600px) {
   .parrafo-acerca {
-    font-size: 30px;
+    font-size: 10px;
   }
   .navbar a{
-    font-size: 30px;
+    font-size: 10px;
+  }
+  .titulo-acerca{
+    font-size: 13px;
   }
 }
 
