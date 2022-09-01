@@ -45,6 +45,9 @@ body{
 .acerca{
   background-image: url("../assets/img2.jpg");
   height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .acerca-contenido{
   background-color: rgba(255, 255, 255, 0.55);
@@ -65,7 +68,7 @@ body{
   text-align: justify;
   font-size: 20px;
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
   .parrafo-acerca {
     font-size: 5px;
   }
