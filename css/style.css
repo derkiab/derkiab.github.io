@@ -23,7 +23,7 @@ body{
 }
 
 .navbar a{ 
-  animation: 3s fadeIn;
+  animation: 4s fadeIn;
   color: white;
   text-decoration: none;
   margin-right: 4vw;
@@ -38,7 +38,7 @@ body{
 .imagen{
   padding-top: calc((85vh - 19px)/4);
   width: 50%;
-  animation: 3s fadeIn;
+  animation: 4s fadeIn;
   animation-fill-mode: forwards;
   visibility: hidden;
 }
