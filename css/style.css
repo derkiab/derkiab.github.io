@@ -67,10 +67,10 @@ body{
 }
 @media only screen and (max-width: 500px) {
   .parrafo-acerca {
-    font-size: 10px;
+    font-size: 5px;
   }
   .navbar a{
-    font-size: 10px;
+    font-size: 8px;
   }
   .titulo-acerca{
     font-size: 13px;
