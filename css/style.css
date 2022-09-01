@@ -66,6 +66,14 @@ body{
   text-align: justify;
   font-size: small;
 }
+@media screen and (max-width: 600px) {
+  .parrafo-acerca {
+    font-size: 30px;
+  }
+  .navbar a{
+    font-size: 30px;
+  }
+}
 
 
 
