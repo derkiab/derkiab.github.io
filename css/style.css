@@ -13,13 +13,13 @@ body{
   background-position: center;
   background-size: cover;
 }
-.navbar{
+.navbarmine{
   padding-top: 7.5vh;
   text-align: center;
   padding-bottom: 7.5vh;
   background-color: rgba(0, 0, 0, 0.99);
 }
-.navbar a{ 
+.navbarmine a{ 
   animation: 1s fadeIn;
   color: white;
   padding: 10px;
@@ -31,12 +31,9 @@ body{
   border-radius: 4.5%;
   transition: 0.3s;
 }
-.navbar a:hover{
-
+.navbarmine a:hover{
   background-color: rgb(255, 255, 255);
   color: black;
-  
-  
 }
 .presentacion{
   text-align: center;
@@ -70,13 +67,11 @@ body{
 }
 .parrafo-acerca{
   font-family: Arial, Helvetica, sans-serif;
-  
   padding-left: 2vw;
   padding-right: 2vw;
   text-align: justify;
   font-size: 20px;
 }
-
 .competencias{
   background-image: url("../assets/moon.jpg");
   height: 100vh;
@@ -105,12 +100,18 @@ body{
   text-align: justify;
   font-size: 20px;
 }
+.tecnologias{
+  margin-top: 10%;
+  padding-left: 10%;
+  float: inline-start;
+
+}
 
 @media only screen and (max-width: 600px) {
   .parrafo-acerca {
     font-size: 5px;
   }
-  .navbar a{
+  .navbarmine a{
     font-size: 8px;
   }
   .titulo-acerca{
@@ -139,7 +140,7 @@ body{
   .parrafo-acerca {
     font-size: 8px;
   }
-  .navbar a{
+  .navbarmine a{
     font-size: 11px;
   }
   .titulo-acerca{
@@ -149,7 +150,6 @@ body{
     height: 80vh;
   }
   .acerca-contenido{
-
     height: 80vh;
   }
   .competencias{
