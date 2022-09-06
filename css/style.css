@@ -18,6 +18,10 @@ body{
   text-align: center;
   padding-bottom: 7.5vh;
   background-color: rgba(0, 0, 0, 0.99);
+  width: 100%;
+  margin: auto;
+  
+  
 }
 .navbarmine a{ 
   animation: 1s fadeIn;
@@ -27,9 +31,16 @@ body{
   margin-right: 4vw;
   text-align:center;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 25px;
+  font-size: 20px;
   border-radius: 4.5%;
   transition: 0.3s;
+}
+.btn{
+  display:inline;
+  position: absolute; top:10%; left:8%;
+  font-size: 35px;
+  color: white;
+  display:none;
 }
 .navbarmine a:hover{
   background-color: rgb(255, 255, 255);
@@ -111,8 +122,18 @@ body{
   .parrafo-acerca {
     font-size: 5px;
   }
+  .imagen{
+    padding-top: 50vh;
+    
+  }
+  .btn{
+    display:inline;
+  }
   .navbarmine a{
     font-size: 8px;
+  }
+  .navbarmine{
+    display:none;
   }
   .titulo-acerca{
     font-size: 13px;
@@ -142,6 +163,16 @@ body{
   }
   .navbarmine a{
     font-size: 11px;
+  }
+  .imagen{
+    padding-top: 50vh;
+    
+  }
+  .btn{
+    display:inline;
+  }
+  .navbarmine{
+    display:none;
   }
   .titulo-acerca{
     font-size: 16px;
