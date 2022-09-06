@@ -14,31 +14,29 @@ body{
   background-size: cover;
 }
 .navbar{
-  
   padding-top: 7.5vh;
   text-align: center;
   padding-bottom: 7.5vh;
   background-color: rgba(0, 0, 0, 0.99);
-  
 }
-
 .navbar a{ 
-  animation: 4s fadeIn;
+  animation: 1s fadeIn;
   color: white;
   text-decoration: none;
   margin-right: 4vw;
   text-align:center;
-  font-family: 'Aboreto', cursive;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
 }
 .presentacion{
   text-align: center;
-  height: calc(85vh - 19px);
+  height: calc(100vh - 19px);
   background-color: rgba(0, 0, 0, 0.6);
 }
 .imagen{
-  padding-top: calc((85vh - 19px)/4);
+  padding-top: calc((100vh - 19px)/4);
   width: 50%;
-  animation: 4s fadeIn;
+  animation: 1s fadeIn;
   animation-fill-mode: forwards;
   visibility: hidden;
 }
@@ -52,22 +50,52 @@ body{
 .acerca-contenido{
   background-color: rgba(255, 255, 255, 0.55);
   height: 100vh;
-  width: 50vw;
+  width: 70vw;
 }
 .titulo-acerca{
   text-align: center;
   color: rgb(0, 0, 0);
   padding-top: 8vh;
-  font-family: 'Aboreto', cursive;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .parrafo-acerca{
-  font-family: 'Aboreto';
+  font-family: Arial, Helvetica, sans-serif;
   
   padding-left: 2vw;
   padding-right: 2vw;
   text-align: justify;
   font-size: 20px;
 }
+
+.competencias{
+  background-image: url("../assets/moon.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.competencias-contenido{
+  background-color: rgba(0, 0, 0, 0.55);
+  height: 100vh;
+  width: 70vw;
+  float:right;
+}
+.titulo-competencias{
+  text-align: center;
+  color: rgb(255, 255, 255);
+  margin:0%;
+  padding-top: 8vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.parrafo-competencias{
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(255, 255, 255);
+  padding-left: 2vw;
+  padding-right: 2vw;
+  text-align: justify;
+  font-size: 20px;
+}
+
 @media only screen and (max-width: 600px) {
   .parrafo-acerca {
     font-size: 5px;
@@ -78,10 +106,55 @@ body{
   .titulo-acerca{
     font-size: 13px;
   }
+  .acerca{
+    height: 50vh;
+  }
+  .acerca-contenido{
+    height: 50vh; 
+  }
+  .competencias{
+    height: 50vh; 
+  }
+  .competencias-contenido{
+    height: 50vh;
+  }
+  .titulo-competencias{
+    font-size: 13px;
+  }
+  .parrafo-competencias{
+    font-size: 5px;
+  }
 }
+@media only screen and (max-width: 768px) and (min-width: 601px) {
+  .parrafo-acerca {
+    font-size: 8px;
+  }
+  .navbar a{
+    font-size: 11px;
+  }
+  .titulo-acerca{
+    font-size: 16px;
+  }
+  .acerca{
+    height: 80vh;
+  }
+  .acerca-contenido{
 
-
-
+    height: 80vh;
+  }
+  .competencias{
+    height: 80vh; 
+  }
+  .competencias-contenido{
+    height: 80vh;
+  }
+  .titulo-competencias{
+    font-size: 16px;
+  }
+  .parrafo-competencias{
+    font-size: 8px;
+  }
+}
 
 @keyframes fadeIn {
   0% {
